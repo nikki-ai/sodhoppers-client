@@ -1,0 +1,41 @@
+Project statement
+
+Sodhoppers Lawncare
+
+This is a web application that will provide users with a way to schedule
+lawn care services and from an admin perspective will provide 
+a neat way to schedule clients via a drag and drop kanban style
+dashboard. 
+
+User Stories
+
+- (High) Homepage with about 
+
+- (Medium) Contact us page
+
+- (High) Services page lists all offered services w/ desc. and pictures
+
+- (High) Services page with scheduling functionality
+
+- (Low) Way to check scheduling status
+
+- (High) When requesting a service input name, phone number, email, etc.
+
+
+Admin Stories
+
+- (High) Log in page
+
+- (Medium) Kanban style dashboard with drag and drop functionality
+ New Client, Contacted, Scheduled, Done
+
+- (High) New Client auto populates with clients who scheduled 
+ a service
+
+- (Low) When moving things to done: asks for price charged and other info
+
+- (Low) A schedule that can be populated with kanban info
+
+-(Low) Analytics
+
+-(Medium) Color code kanban based on service client wants
