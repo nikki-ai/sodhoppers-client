@@ -27,15 +27,11 @@ Admin Stories
 - (High) Log in page
 
 - (Medium) Kanban style dashboard with drag and drop functionality
- New Client, Contacted, Scheduled, Done
+ Potential Client, Contacted, Scheduled, Done
 
-- (High) New Client auto populates with clients who scheduled 
+- (High) Potential Client auto populates with clients who scheduled 
  a service
 
-- (Low) When moving things to done: asks for price charged and other info
-
 - (Low) A schedule that can be populated with kanban info
-
--(Low) Analytics
 
 -(Medium) Color code kanban based on service client wants

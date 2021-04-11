@@ -1,7 +1,6 @@
 import React from 'react';
 import ServiceForm from '../components/ServiceForm';
 import DashboardApiService from '../services/dashboardApi';
-// import { Link } from 'react-router-dom';
 
 class LawnService extends React.Component {
   handleSubmitLawnService(e) {
