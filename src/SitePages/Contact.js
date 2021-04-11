@@ -15,7 +15,7 @@ class Contact extends React.Component {
           </div>
           <div className='contact'>
             <h4>Call or text:</h4>
-            <a href='tel:5554280940'>555-428-0940</a>
+            <a href='tel:5554280940'>555-1234</a>
           </div>
         </section>
       </div>

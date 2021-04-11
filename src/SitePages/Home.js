@@ -15,13 +15,19 @@ class Home extends React.Component {
             perspective will provide a neat way to schedule clients via a drag
             and drop kanban style dashboard. To get started head to the services
             page and request a service. You can then log in to the admin
-            Dashboard with Username: admin Password: pass to take a
-            look at your submitted request and use the drag and drop features to
-            move it to the appropriate column.
+            Dashboard with Username: admin Password: pass to take a look at your
+            submitted request and use the drag and drop features to move it to
+            the appropriate column.
           </p>
         </section>
         <section>
           <h3>About Us</h3>
+          <p>
+            Sodhoppers Lawncare is a small family owned company started in
+            Kingwood, Texas in 1993. We service the Kingwood/Atascocita area
+            with weekly lawn service and other yard care services such as
+            weeding, trimming, mulch, sod, etc... Give us a call at 555-1234.
+          </p>
         </section>
       </div>
     );
