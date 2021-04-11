@@ -28,9 +28,9 @@ a:hover {
   border-style: solid;
   padding: 20px;
 }
-.kBox {
-  /* border-style: solid;
-  padding: 50px; */
+.kbox {
+  display: flex;
+  flex-direction: column;
 }
 ul {
   list-style: none;
@@ -82,4 +82,15 @@ ul {
   margin: 10px 40px;
   text-justify: newspaper;
 }
-
+.style-text {
+  text-align: justify;
+  text-justify: inter-word;
+}
+.home-sections {
+  margin: 40px;
+}
+.homepage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

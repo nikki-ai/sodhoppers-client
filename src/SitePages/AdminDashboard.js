@@ -155,7 +155,7 @@ class AdminDashboard extends React.Component {
                     {this.state.potential.map(
                       ({ id, name, number, email, type, category }, index) => {
                         return (
-                          <Draggable
+                          <Draggable className='box'
                             key={id}
                             draggableId={`${id}`}
                             index={index}
@@ -203,7 +203,7 @@ class AdminDashboard extends React.Component {
                     {this.state.contacted.map(
                       ({ id, name, number, email, type, category }, index) => {
                         return (
-                          <Draggable
+                          <Draggable className='box'
                             key={id}
                             draggableId={`${id}`}
                             index={index}
@@ -252,7 +252,7 @@ class AdminDashboard extends React.Component {
                     {this.state.scheduled.map(
                       ({ id, name, number, email, type, category }, index) => {
                         return (
-                          <Draggable
+                          <Draggable className='box'
                             key={id}
                             draggableId={`${id}`}
                             index={index}
@@ -300,7 +300,7 @@ class AdminDashboard extends React.Component {
                     {this.state.completed.map(
                       ({ id, name, number, email, type, category }, index) => {
                         return (
-                          <Draggable
+                          <Draggable className='box'
                             key={id}
                             draggableId={`${id}`}
                             index={index}
