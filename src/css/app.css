@@ -76,3 +76,10 @@ ul {
   flex-direction: row;
   justify-content: space-around;
 }
+.service {
+  background-color: rgb(206, 248, 200);
+  border-radius: 20%;
+  margin: 10px 40px;
+  text-justify: newspaper;
+}
+

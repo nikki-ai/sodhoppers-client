@@ -11,7 +11,7 @@ class Contact extends React.Component {
         <section className='row'>
           <div className='contact'>
             <h4>To Schedule a Service</h4>
-            <Link to='/services'>Click Here</Link>
+            <Link to='/services'>&gt;Click Here&lt;</Link>
           </div>
           <div className='contact'>
             <h4>Call or text:</h4>

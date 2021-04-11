@@ -3,7 +3,7 @@
 This is a web application that will provide users with a way to schedule lawn care services and from an admin perspective will provide a neat way to schedule clients via a drag and drop kanban style dashboard.
 ## Link to Live App & Repos
 - Live App:
-  - https://sodhoppers-hd7iy98bx-nikki-ai.vercel.app/
+  - https://sodhoppers.vercel.app/
 - Server Repo:
   - https://github.com/nikki-ai/sodhoppers-server
 - Client Repo:
