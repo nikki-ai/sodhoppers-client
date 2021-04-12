@@ -9,9 +9,9 @@ import AdminDashboard from './SitePages/AdminDashboard';
 import cleanUp from './SitePages/CleanUp';
 import SodInstall from './SitePages/SodInstall';
 import LawnService from './SitePages/LawnService';
+import { UserProvider } from './context';
 
 class App extends React.Component {
-
   render() {
     return (
       <div>
@@ -29,23 +29,25 @@ class App extends React.Component {
             <Link to='/admin'>Admin</Link>
           </nav>
         </header>
-        <Switch>
-          <Route exact path='/' component={Home} />
+        <UserProvider>
+          <Switch>
+            <Route exact path='/' component={Home} />
 
-          <Route path='/services' component={Services} />
+            <Route path='/services' component={Services} />
 
-          <Route path='/contactUs' component={Contact} />
+            <Route path='/contactUs' component={Contact} />
 
-          <Route path='/admin' component={Admin} />
+            <Route path='/admin' component={Admin} />
 
-          <Route path='/adminDashboard' component={AdminDashboard} />
+            <Route path='/adminDashboard' component={AdminDashboard} />
 
-          <Route path='/cleanUp' component={cleanUp} />
+            <Route path='/cleanUp' component={cleanUp} />
 
-          <Route path='/lawnService' component={LawnService} />
+            <Route path='/lawnService' component={LawnService} />
 
-          <Route path='/sodInstallation' component={SodInstall} />
-        </Switch>
+            <Route path='/sodInstallation' component={SodInstall} />
+          </Switch>
+        </UserProvider>
       </div>
     );
   }

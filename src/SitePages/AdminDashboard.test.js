@@ -1,8 +1,7 @@
-import { render, screen } from '@testing-library/react';
-import App from './App';
 import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import ReactDOM from 'react-dom';
+import AdminDashboard from './AdminDashboard';
 
 // this is the test case
 it('renders without crashing', () => {
@@ -12,7 +11,7 @@ it('renders without crashing', () => {
   // render the component, this is the actual test, if something is wrong it will fail here
   ReactDOM.render(
     <BrowserRouter>
-      <App />
+      <AdminDashboard />
     </BrowserRouter>,
     div
   );

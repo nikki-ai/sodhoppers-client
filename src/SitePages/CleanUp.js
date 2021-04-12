@@ -6,6 +6,7 @@ class CleanUp extends React.Component {
   handleSubmitCleanup(e) {
     //Submit request for Cleanup
     DashboardApiService.postNewClean(e);
+    alert('Your request has been sent!');
   }
 
   render() {

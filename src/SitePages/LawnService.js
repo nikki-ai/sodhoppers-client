@@ -6,6 +6,7 @@ class LawnService extends React.Component {
   handleSubmitLawnService(e) {
     //request to LawnService
     DashboardApiService.postNewLawn(e);
+    alert('Your request has been sent!');
   }
 
   render() {

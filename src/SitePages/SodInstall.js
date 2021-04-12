@@ -6,6 +6,7 @@ class SodInstall extends React.Component {
   handleSubmitSodInstall(e) {
     //request to sodInstall
     DashboardApiService.postNewSod(e);
+    alert('Your request has been sent!');
   }
 
   render() {

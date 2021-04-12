@@ -13,9 +13,7 @@ const UserContext = React.createContext({
   processLogout: () => {},
 });
 
-export default UserContext;
-
-export class UserProvider extends Component {
+class UserProvider extends Component {
   constructor(props) {
     super(props);
     const state = { user: {}, error: null };
@@ -118,3 +116,5 @@ export class UserProvider extends Component {
     );
   }
 }
+
+export { UserContext, UserProvider };

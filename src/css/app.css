@@ -21,16 +21,18 @@ a:hover {
 }
 .kanban {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
 }
 .box {
   border-style: solid;
   padding: 20px;
+  width: 100% !important;
 }
 .kbox {
   display: flex;
   flex-direction: column;
+  padding: 10px;
 }
 ul {
   list-style: none;
@@ -46,6 +48,9 @@ ul {
 .sod {
   background-color: rgb(167, 255, 167);
   padding: 10px;
+}
+.kbox ul {
+  padding: 0;
 }
 .topRight {
   text-align: right;
@@ -93,4 +98,12 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+@media only screen and (min-width: 600px) {
+  .kanban {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
 }

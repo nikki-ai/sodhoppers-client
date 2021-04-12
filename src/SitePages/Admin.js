@@ -1,6 +1,8 @@
 import React from 'react';
 import AuthApiService from '../services/auth-api-service';
-import Context from '../context';
+import { UserContext as Context } from '../context';
+import TokenService from '../services/token-service';
+import { Redirect } from 'react-router';
 
 class Admin extends React.Component {
   static defaultProps = {
@@ -34,14 +36,15 @@ class Admin extends React.Component {
         this.setState({ error: res.error });
       });
   };
-  componentDidMount() {
-    this.firstInput.current.focus();
-  }
+  
   render() {
+    if (TokenService.hasAuthToken() === true) {
+      return <Redirect to='/adminDashboard' />;
+    }
     const { error } = this.state;
     return (
       <div>
-          <section className='pageTitle'>
+        <section className='pageTitle'>
           <h2>Admin</h2>
         </section>
         <form onSubmit={this.handleSubmitAdmin}>
